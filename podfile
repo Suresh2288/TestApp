@@ -1,0 +1,12 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'SampleApp' do 
+
+    pod 'Alamofire', '~> 4.0'
+    pod 'SwiftyJSON', '~> 4.0'
+    pod 'RealmSwift', '~> 2.8' 
+    pod 'ObjectMapper', '~> 2.0'
+    pod 'AlamofireObjectMapper', '~> 4.0'
+
+end
